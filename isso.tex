@@ -1,0 +1,113 @@
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+
+\name{DEBASIS JANA}
+\tagline{Computer Science Engineering Undergraduate }
+\personalinfo{%
+  \email{debasisjana93@gmail.com}
+    \phone{+91-9609624692}
+  \location{Phagwara, India}
+   \linkedin{https://www.linkedin.com/in/deba-98/}
+    \github{github.com/deba19} 
+    
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+\AtBeginEnvironment{itemize}{\small}
+\cvsection[sidebar]{Education}
+
+\edu{B.Tech in Computer Science Engineering}{Lovely Professional University}{August 2017 -- Present}{CGPA - 6.67/10.0}
+
+
+\edu{Class XII - WBCHSE}{Arambagh High School}{July 2015 -- May 2017}{Percentage - 83.6\%}
+
+\edu{Class X - WBBSE}{Sekendarpur R.K.P.P.B High School}{May 2009 -- May 2015}{Percentage - 89.28\%}
+
+
+
+\cvsection{PROJECTS}
+
+\cveventnew{Digital Identification}{}{October 2019}{}
+\begin{itemize}
+\item  Created a Python GUI based software which can secure people's digital identity. \newline
+Used Technologies: Tkinter, OpenCV, Data Science
+
+
+\end{itemize}
+
+\divider
+
+\cveventnew{Attendance Management System}{ }{September 2019}{}
+\begin{itemize}
+\item  Developed an application which can manage participant's registration in any event and send them email automatically with an auto generated QR code. Also it can verify participant's during the event by scanning the QR code. \newline
+Technologies Used: Python3, Pyqrcode, Pypng, OpenCV
+
+\end{itemize}
+\divider
+
+\cveventnew{Web Development}{}{January 2019}{}
+\begin{itemize}
+\item As a Chief Technical Officer, developed the official website (www.sapphirelpu.com) of Student Organization Sapphire, Lovely Professional University.\newline
+Technologies Used: HTML5, CSS, Javascript, Bootstarp, Docker
+
+\end{itemize}
+\divider
+
+\cveventnew{Number System using Python GUI}{}{September 2018}{}
+\begin{itemize}
+\item
+Developed a GUI based application which can convert any number with any base to another base.\newline
+Technologies Used: Python3, Tkinter
+
+\end{itemize}
+\divider
+
+
+
+
+
+
+
+
+
+
+
+ \cvsection{ACHIEVEMENTs}
+\begin{itemize}
+\item\linespread{1.2} \large Winner of Hackathon ‘Autumn Hacks’, 2019
+\item  Participated till Round 1B of Global Programming
+Competition SnackDown 2019
+\item Finalist of Code Apocalypse conducted by Cypher LPU, 2019
+\item Won Marubeni India Meritorious Scholarship, 2017 and 2018
+
+\end{itemize}
+\clearpage
+\end{document}
